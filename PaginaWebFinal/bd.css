@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'open sans';
+    text-align: center;
+    -webkit-text-stroke-width: medium;
+    border-top-style: groove;
+}
+
+.contenedor {
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.titulo {
+    color: #642a73;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+/*Header*/
+header {
+    width: 100%;
+    height: 600px;
+    background: #fffeff;
+    /* fallback for old browsers */
+    background: linear-gradient(to right,#e0dfdf, #f3e9eb), url(duko2.jpeg);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #e0dfdf, #f3e9eb), url(duko3.jpeg);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+nav{
+    text-align: right;
+    padding: 30px 50px 0 0;
+}
+nav > a{
+    color:#004e18;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+}
+nav > a :hover{
+    text-decoration: underline;
+}
+
+header .textos-header{
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.textos-header h1{
+    font-size: 50px;
+    color: #004e18;
+}
+
+.textos-header h2{
+    font-size: 30px;
+    font-weight: 100%;
+    color: #004e18;
+}
+
+.wave{
+    position:absolute;
+    bottom: 0;
+    width: -webkit-fill-available;
+}
+
+body{
+	background-color: #e0dfdf, #f3e9eb;
+	font-family: Arial;
+}
+
+#main-container{
+	margin: 150px auto;
+	width: 600px;
+}
+
+table{
+	background-color: white;
+	text-align: left;
+	border-collapse: collapse;
+	width: 100%;
+    cursor: -webkit-grab;
+}
+
+th, td{
+	padding: 30px;
+    text-align: center;
+}
+
+thead{
+	background-color: #246355;
+	border-bottom: solid 5px #0F362D;
+	color: white;
+}
+
+tr:nth-child(even){
+	background-color: #ddd;
+}
+
+tr:hover td{
+	background-color: #369681;
+	color: white;
+}
